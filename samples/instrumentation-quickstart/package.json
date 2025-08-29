@@ -24,7 +24,7 @@
     "posttest": "npm run lint"
   },
   "devDependencies": {
-    "@types/node": "18.19.123",
+    "@types/node": "22.18.0",
     "gts": "6.0.2",
     "typescript": "5.0.4"
   },

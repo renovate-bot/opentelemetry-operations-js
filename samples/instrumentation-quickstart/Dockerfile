@@ -1,11 +1,11 @@
-FROM node:20-alpine as builder
+FROM node:22-alpine as builder
 WORKDIR /src
 COPY package.json package-lock.json ./
 RUN npm install --ignore-scripts
 COPY . ./
 RUN npm run compile
 
-FROM node:20-alpine
+FROM node:22-alpine
 RUN chown node:node /var/log
 USER node
 WORKDIR /src
