@@ -30,7 +30,7 @@
     "@opentelemetry/sdk-node": "0.203.0",
     "axios": "1.13.5",
     "express": "4.22.1",
-    "google-auth-library": "9.15.1"
+    "google-auth-library": "10.6.2"
   },
   "devDependencies": {
     "gts": "6.0.2",
